@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/styles/reset.css"/>
     <link rel="stylesheet" href="./src/styles/vars.css"/>
     <link rel="stylesheet" href="./src/styles/sidebar.css"/>
+    <link rel="stylesheet" href="./src/styles/main-content.css"/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -70,5 +71,35 @@
             </div>
           </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                     <div class="navigation">
+
+                        <button class="navigation-arrow_left">    
+                            <img src="./src/assets/icons/small-left.png" alt="Seta para esquerda">
+                        </button>
+
+                        <button class="navigation-arrow_right">
+                            <img src="./src/assets/icons/small-right.png" alt="Seta para direita">
+                        </button>
+                    </div>
+
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png">
+                        <input type="text"
+                         id="search-input" 
+                         maxlength="800" 
+                         placeholder="O que você quer ouvir?">
+                    </div>
+                    
+                    <div class="header__login"> 
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+        </div>
+    </main>
 </body>
 </html>
